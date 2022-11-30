@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    color: #000000;
+}
+
+body {
+    background-color: #00ffeaf3;
+}
+
+footer {
+
+    background-color: black;
+}
+
+footer p {
+    color: #00ffeaf3;
+}
+
+h1  {
+
+    padding: 2px;
+    font-weight: bold
+}
+
+.destaques .carousel-item{
+    padding: 20px 50px 20px;
+}
+
+.destaques .carousel-descricao{
+
+    padding: 20px 50px 20px;
+    text-align: center;
+}
+
+.destaques .carousel-imagem{
+
+    padding: 20px 50px 20px;
+}
+
+.destaques .titulo{
+
+    text-align: center;
+}
+
+.carousel-control-next{
+
+    width: 2%;
+}
+
+.carousel-control-prev{
+
+    width: 2%;
+}
+
+.jogos .titulo{
+
+    text-align: center;
+    padding: 2px;
+}
+
+.jogos .itens{
+    padding: 20px 10px 20px 80px;
+}
+
+.jogos .card{
+
+    margin: 10px;
+}
+
+.empresas .titulo{
+
+    text-align: center;
+    padding: 2px;
+}
+
+.empresas .itens{
+    padding: 20px 10px 20px 80px;
+}
+
+.empresas .card{
+
+    margin: 10px;
+}
+
+.navbar-brand{
+
+    color:  #00ffeaf3;
+}
+
+.btn {
+
+    color:  #00ffeaf3;
+    background-color: grey;
+}
+
+.destaques{
+
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.detalhes img{
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+@media(min-width: 1200px){
+    
+    .detalhes img{
+        height: 80%;
+        width: 50%;
+        padding-bottom: 0px;
+    }
+
+    .destaques .texto{
+
+        padding-bottom: 200px;
+    }
+}    
